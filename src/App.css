@@ -1,0 +1,37 @@
+.app-container{
+    display: flex;
+}
+
+.content{
+    width: 100%;
+}
+
+.sidebar{
+    min-height:800px;
+}
+
+.post-card{
+    padding: 10px;
+    margin: 20px 50px;
+    width: 18rem;
+}
+
+.deleteBtn{
+    cursor: pointer;
+}
+
+.reaction{
+    margin: 17px 0 0 0;
+}
+.create_post{
+    width: 80%;
+    margin: 50px 0 0 60px ;
+}
+
+.welcome_msg{
+    margin: 110px 0;
+}
+.spinner{
+    margin: 14% 0;
+   
+}
