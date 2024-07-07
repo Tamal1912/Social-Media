@@ -21,15 +21,12 @@ const PostList = () => {
 
   // },[]) 
   
-  const handleGetPostClick=()=>{
-    
-  }
 
   return (
     <>
     {/* {fetching && <LoadingSpinner/>} */}
       {postList.length === 0 && 
-        <WelcomeMessage onGetPostClick={handleGetPostClick}/>
+        <WelcomeMessage />
       }
       { postList.map((post) => (
         <Post key={post.id}  post={post} />
